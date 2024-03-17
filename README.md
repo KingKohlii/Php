@@ -2,12 +2,19 @@ This File is for Automation of Database.
 in this firstly install Nginx,mariadb and php
 commands
 sudo yum install nginx -y
+
 sudo dnf install mariadb105-server -y
+
 sudo yum install php -y
+
 sudo yum install php8.2-mysqlnd.*86_64 -y
+
 service nginx start
+
 service mariadb start
+
 service php-fpm start
+
 sudo systemctl enable nginx.service
 
 Then took form.php code from google.
